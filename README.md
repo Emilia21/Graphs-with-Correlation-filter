@@ -3,7 +3,7 @@
 # Abstract
 The project is an implementation of a Java graph, followed by removing the weakly correlated edges and writing them to .xml files.
 The input data is in the form of two matrices: a matrix of correlations of the logarithmic return and a matrix of correlations of volatility, which are in .csv format with a separator ",".
-# Имплементация
+# Implementation
 The implemented classes are:
 ## 1. Node.java
 The class represents the Vertex object with variables id and name, as id is influenced by the variable counter, which is static, i.e the id is formed automatically. The variable name is the name of the vertex and is used in the constructor. The class consists of setters and getters for the variables and two overriden methods: equals () - to be able to compare vertices, toString () - to print vertices in user-friendly format
